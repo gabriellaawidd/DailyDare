@@ -1,0 +1,78 @@
+[
+  {
+    "id": "01",
+    "title": "First Responsibility",
+    "iconName": "sparkle",
+    "descriptionBack": "Completed your very first task",
+    "unlockRuleType": "firstTaskCompleted"
+  },
+  {
+    "id": "02",
+    "title": "Well Rounded",
+    "iconName": "sparkles",
+    "descriptionBack": "Completed at least one task from each category",
+    "unlockRuleType": "allCategoriesTouched"
+  },
+  {
+    "id": "03",
+    "title": "3 Day Commitment",
+    "iconName": "flame",
+    "descriptionBack": "Followed through 3 days in a row",
+    "unlockRuleType": "streakReached",
+    "unlockRuleParam": "3"
+  },
+  {
+    "id": "04",
+    "title": "1 Week Commitment",
+    "iconName": "flame.fill",
+    "descriptionBack": "7 days of showing up for yourself",
+    "unlockRuleType": "streakReached",
+    "unlockRuleParam": "7"
+  },
+  {
+    "id": "05",
+    "title": "1 Month Discipline",
+    "iconName": "flame.circle.fill",
+    "descriptionBack": "30 days straight",
+    "unlockRuleType": "streakReached",
+    "unlockRuleParam": "30"
+  },
+  {
+    "id": "06",
+    "title": "Self Reliant",
+    "iconName": "house.fill",
+    "descriptionBack": "Took full responsibility for every task in Self-Sufficient",
+    "unlockRuleType": "categoryFullyCompleted",
+    "unlockRuleParam": "Self-Sufficient"
+  },
+  {
+    "id": "07",
+    "title": "Socially Responsible",
+    "iconName": "person.2.fill",
+    "descriptionBack": "Took full responsibility for every task in Reaching Out",
+    "unlockRuleType": "categoryFullyCompleted",
+    "unlockRuleParam": "Reaching Out"
+  },
+  {
+    "id": "08",
+    "title": "Emotionally Responsible",
+    "iconName": "moon.stars.fill",
+    "descriptionBack": "Took full responsibility for every task in Steady Mind",
+    "unlockRuleType": "categoryFullyCompleted",
+    "unlockRuleParam": "Steady Mind"
+  },
+  {
+    "id": "09",
+    "title": "Fully Responsible",
+    "iconName": "sun.max.fill",
+    "descriptionBack": "Completed every task across all three categories",
+    "unlockRuleType": "allCategoriesFullyCompleted"
+  },
+  {
+    "id": "10",
+    "title": "Accountable",
+    "iconName": "hand.raised.fill",
+    "descriptionBack": "Come back even after falling behind",
+    "unlockRuleType": "recoveredFromMissedStreak"
+  }
+]
