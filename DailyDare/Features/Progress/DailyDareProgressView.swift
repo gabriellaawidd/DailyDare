@@ -59,8 +59,8 @@ struct DailyDareProgressView: View {
     }
 }
 
-#Preview {
-    DailyDareProgressView()
-        .modelContainer(.preview)
-        .preferredColorScheme(.dark)
-}
+//#Preview {
+//    DailyDareProgressView()
+//        .modelContainer(.preview)
+//        .preferredColorScheme(.dark)
+//}
