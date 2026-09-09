@@ -8,9 +8,6 @@
 
 import SwiftData
 
-// MARK: - ModelContainerFactory
-// Satu-satunya tempat ModelContainer di-define.
-
 public enum ModelContainerFactory {
     public static func makeContainer() -> ModelContainer {
         let schema = Schema([
