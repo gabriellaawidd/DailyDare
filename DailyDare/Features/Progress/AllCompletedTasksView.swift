@@ -28,6 +28,7 @@ struct AllCompletedTasksView: View {
         .navigationTitle("All Completed Tasks")
         .navigationBarTitleDisplayMode(.large)
         .dailyDareNavigationTheme()
+        .toolbar(.hidden, for: .tabBar)
     }
 }
 

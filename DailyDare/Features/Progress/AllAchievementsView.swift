@@ -30,6 +30,7 @@ struct AllAchievementsView: View {
         .navigationTitle("All Achievements")
         .navigationBarTitleDisplayMode(.large)
         .dailyDareNavigationTheme()
+        .toolbar(.hidden, for: .tabBar)
     }
 }
 
