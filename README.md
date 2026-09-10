@@ -3,6 +3,19 @@
 **Small challenge everyday to build real-life responsibility**
 
 DailyDare is an iOS app built for students and young adults who are living on their own for the first time. It helps people build responsibility and confidence gradually through small, low-stakes daily tasks that gently push them out of their comfort zone
+
+## Screenshots
+
+| Today's Task | Progress | Home Screen Widget |
+|---|---|---|
+| ![Today's Task](docs/screenshots/today-task.png) | ![Progress](docs/screenshots/progress.png) | ![Widget](docs/screenshots/widget.png) |
+
+### Widget Demo
+
+Marking a task done directly from the Home Screen, no need to open the app:
+
+![Widget demo](docs/screenshots/widget-demo.gif)
+
 ## Features
 
 - **Today's Task**  

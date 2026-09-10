@@ -466,6 +466,7 @@
 				INFOPLIST_FILE = DailyDareWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DailyDareWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,6 +498,7 @@
 				INFOPLIST_FILE = DailyDareWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DailyDareWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
