@@ -37,6 +37,23 @@ see today's task at a glance, and mark it done with a single tap, no need to ope
 
 The project follows a feature-based architecture with a shared local framework:
 
+```
+DailyDare/
+├── DailyDare/                  # Main iOS app target
+│   ├── App/                    # Entry point, SwiftData container, root tab navigation
+│   ├── Features/
+│   │   ├── TodayTask/          # Today's challenge screen + components
+│   │   └── Progress/           # Achievements & completed-task history screens
+│   ├── SeedData/                # Default task/achievement JSON + loader
+│   └── Debug/                   # Debug/reset utilities, preview containers
+├── DailyDareWidget/             # WidgetKit extension (interactive Home Screen widget)
+└── DailyDareKit/                # Local Swift Package shared by the app and the widget
+    ├── Models/                  # Shared SwiftData entities
+    ├── Service/                 # Business logic (task generation, streaks, achievements)
+    ├── Intents/                 # App Intents (widget "mark done" button)
+    └── App/                     # Shared App Group SwiftData container factory
+```
+
 * **`/DailyDare/App`**: Contains the application entry point (`DailyDareApp`), SwiftData container initialization, and the root tab navigation (`RootTabView`).
 * **`/DailyDare/Features/TodayTask`**: Contains the main daily challenge interface (`TodayTaskView`) and UI components (`TodayTaskCard`, `StreakCounterCard`, `MessageCard`) for displaying and completing the daily challenge.
 * **`/DailyDare/Features/Progress`**: Contains the views (`DailyDareProgressView`, `AllAchievementsView`, `AllCompletedTasksView`) and card components to track milestone badges and review completed task history.
@@ -46,7 +63,9 @@ The project follows a feature-based architecture with a shared local framework:
 * **`/DailyDareKit/Models`**: Defines the shared SwiftData data entities (`DailyTask`, `Achievement`, `UserProgress`) used across both the main app and the widget.
 * **`/DailyDareKit/Service`**: Contains the core business logic, including daily task assignment (`TaskGeneratorService`), streak calculation and freeze logic (`StreakService`), and achievement unlocking evaluations (`AchievementService`).
 * **`/DailyDareKit/Intents`**: Contains interactive App Intents (`MarkTaskDoneIntent`) enabling users to mark tasks as completed directly from the Home Screen widget button.
-* **`/DailyDareKit/App`**: Contains `ModelContainerFactory`, configuring the shared App Group SQLite store so both the main app and widget extension stay synchronized.## Getting Started
+* **`/DailyDareKit/App`**: Contains `ModelContainerFactory`, configuring the shared App Group SQLite store so both the main app and widget extension stay synchronized.
+
+## Getting Started
 
 ### Requirements
 
