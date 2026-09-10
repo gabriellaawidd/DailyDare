@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftData
+import WidgetKit
 import DailyDareKit
 
 #if DEBUG
@@ -20,6 +21,7 @@ enum DebugDataResetter {
         try? context.save()
 
         SeedDataLoader.seedIfNeeded(context: context)
+        WidgetCenter.shared.reloadTimelines(ofKind: "DailyDareWidget") 
     }
 
     @MainActor
