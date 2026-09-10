@@ -12,6 +12,8 @@
 		F276F1EB304F7CF6005691E6 /* DailyDareWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F276F1DB304F7CF5005691E6 /* DailyDareWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F276F1F4304F81ED005691E6 /* DailyDareKit in Frameworks */ = {isa = PBXBuildFile; productRef = F276F1F3304F81ED005691E6 /* DailyDareKit */; };
 		F276F1F6304F81FE005691E6 /* DailyDareKit in Frameworks */ = {isa = PBXBuildFile; productRef = F276F1F5304F81FE005691E6 /* DailyDareKit */; };
+		F2CF15A03051C876008944A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2CF159F3051C876008944A3 /* README.md */; };
+		F2CF15A13051C876008944A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2CF159F3051C876008944A3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,7 @@
 		F276F1DB304F7CF5005691E6 /* DailyDareWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyDareWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F276F1DD304F7CF5005691E6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F276F1DF304F7CF5005691E6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		F276F1F1304F7D3D005691E6 /* DailyDareWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyDareWidgetExtension.entitlements; sourceTree = "<group>"; };
+		F2CF159F3051C876008944A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,11 +99,11 @@
 		F276F16B3049D405005691E6 = {
 			isa = PBXGroup;
 			children = (
-				F276F1F1304F7D3D005691E6 /* DailyDareWidgetExtension.entitlements */,
 				F276F1763049D405005691E6 /* DailyDare */,
 				F276F1E1304F7CF5005691E6 /* DailyDareWidget */,
 				F276F1DC304F7CF5005691E6 /* Frameworks */,
 				F276F1753049D405005691E6 /* Products */,
+				F2CF159F3051C876008944A3 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CF15A03051C876008944A3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CF15A13051C876008944A3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = DailyDareWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DailyDareKit/DailyDareWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GJYV542RRH;
@@ -485,7 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = DailyDareWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DailyDareKit/DailyDareWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GJYV542RRH;
