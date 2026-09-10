@@ -100,7 +100,7 @@ DailyDare/
 
 This project intentionally avoids a Configuration App Intent for the widget (there's nothing for the user to customize) and Live Activities / Control Widgets (out of scope for this MVP). Business logic (task generation, streak rules, achievement unlocking) lives entirely in `DailyDareKit` so it can be called identically from the app and from the widget's interactive button, keeping both in sync against the same App Group.
 
-## Disclaimer & Usage Terms
+## License
 
 This project is created strictly for **educational and portfolio purposes**. 
 
