@@ -38,12 +38,16 @@ struct TodayTaskView: View {
         return TaskGeneratorService.candidates(from: tasks).isEmpty
     }
 
+    private var mascotImageName: String {
+            (isCompletedToday || isPoolExhausted) ? "completeMascot" : "starMascot"
+        }
+    
     var body: some View {
         NavigationStack {
             VStack(spacing: 24) {
                 StreakCounterCard(streak: userProgress?.currentStreak ?? 0)
 
-                Image("starMascot")
+                Image(mascotImageName)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 250, height: 250)
