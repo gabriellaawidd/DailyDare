@@ -14,7 +14,9 @@ DailyDare is an iOS app built for students and young adults who are living on th
 
 Marking a task done directly from the Home Screen, no need to open the app:
 
-<img src="docs/screenshots/widget-demo.gif" width="250" alt="Widget demo" />
+<p align="center">
+  <img src="docs/screenshots/widget-demo.gif" width="250" alt="Widget demo" />
+</p>
 
 
 ## Features
