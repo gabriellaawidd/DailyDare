@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import WidgetKit
 import DailyDareKit
 
 struct TodayTaskView: View {
@@ -110,6 +111,8 @@ struct TodayTaskView: View {
 
             try? modelContext.save()
         }
+
+        WidgetCenter.shared.reloadTimelines(ofKind: "DailyDareWidget")
 
         let unlocked = AchievementService.checkUnlocks(context: modelContext)
         if !unlocked.isEmpty {
